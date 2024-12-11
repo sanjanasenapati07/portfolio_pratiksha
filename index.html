@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personal Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/837a6904b0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="container">
+        <nav>
+          <div class="logo">Pratiksha.</div>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Teen Model</p>
+          <h1>
+            Hi, I'm <span>Pratiksha Senapati</span><br>
+            From Brahmapur
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col1">
+            <img src="images/DSC05810.JPG" alt="" />
+          </div>
+          <div class="col2">
+            <h1 class="sub">About Me</h1>
+            <p>
+             I am Pratiksha Senapati from berhampur,odisha
+             A teen model at TFI india. From early childhood i wanted to be a dancer so i train myself at home from online sources to become a k-pop idol.
+             So i initiated from being an Youtuber. I post numerius challenge videos,Life hacks etc on the channel.
+             I do have some makeup skills and editing  skills.
+            </p>
+            <div class="titles">
+              <p class="links active" onclick="opentab('skills')">Skills</p>
+              <p class="links" onclick="opentab('experience')">Exprience</p>
+              <p class="links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="t-contents activet" id="skills">
+              <ul>
+                <li><span>Model</span><br>Teen model at TFI</li>
+                <li><span>Youtuber</span><br>Saranya Bangtan</li>
+              </ul>
+            </div>
+            <div class="t-contents" id="experience">
+              <ul>
+                <li><span>2024 - Current</span><br>Teen model at TFI</li>
+                <li><span>2020 - Current</span><br>Vlogger in youtube</li>
+              </ul>
+            </div>
+            <div class="t-contents" id="education">
+              <ul>
+                <li><span>2024</span><br >Schooling at SSVM,N.K.Nagar</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My services</h1>
+            <div class="servicesl">
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h2>Model</h2>
+                    <p>I do modelling in TFI inia. i started it recently in 2024. I do Photoshoots</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-youtube"></i>
+                    <h2>Youtube Collaboration</h2>
+                    <p>I do travel vlogs,life hacks, challenges, makeup challenges, food vlogs and dance covers.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                    <h2>Content Creation Collaboration</h2>
+                    <p>I do collaborations of dance videos.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub">My works</h1>
+            <div class="workl">
+                <div class="work">
+                    <img src="images/How To Get Invited To NYFW As A Blogger.jpg" alt="">
+                    <div class="layer">
+                        <h3>Modelling</h3>
+                        <p>I perform various forms of ramps</p>
+                        <i class="fa-solid fa-link"></i>
+                    </div> 
+                    </div>
+                <div class="work">
+                    <img src="images/26627309-b363-45d0-a0ac-c6f859410fdd.jpg" alt="">
+                    <div class="layer">
+                        <h3>Dance</h3>
+                        <p>I have been learning different types of dances like hiphop,classical,k-pop etc.</p>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Affordable YouTube starter pack.jpg" alt="">
+                    <div class="layer">
+                        <h3>Youtube</h3>
+                        <p>I upload challenge videos every now and then. check it out.</p>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contactl">
+        <h1 class="sub">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>saradasenapati1983@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>8917698330</p>
+        <div class="social">
+          <a href="https://www.instagram.com/heavenly_saranya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCDjTvMbsFVPTTjRxU01sbxw"><i class="fa-brands fa-youtube"></i></a>
+        
+        </div>
+      <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contactr">
+        <form>
+          <input type="text" name="Name" placeholder="Your name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  
+</div>
+<footer>
+  <div class="copyright">
+    <p>Copyright @ Saranya.<i class="fa-solid fa-bolt"></i></p>
+  </div>
+</footer>
+
+    <script>
+      var tlinks = document.getElementsByClassName('links');
+var tcontents = document.getElementsByClassName("t-contents");
+
+function opentab(tabname) {
+  for (var i = 0; i < tlinks.length; i++) {
+    tlinks[i].classList.remove("active");
+  }
+  for (var i = 0; i < tcontents.length; i++) {
+    tcontents[i].classList.remove("activet");
+  }
+  event.currentTarget.classList.add("active");
+  document.getElementById(tabname).classList.add("activet");
+}
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
